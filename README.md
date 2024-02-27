@@ -9,5 +9,10 @@ For implementation, I used two variations of the YOLO-8 neural network: for dete
 
 Below is a frame from a real TV broadcast after preprocessing. Some morphological operations were applied to isolate the field and the detection of players using a neural network was performed.
 
-
 <img src="https://github.com/zhernakov14/FIND_PLAYERS/assets/54941157/67bd5864-88b3-4c82-b9ae-54aa8fa3f8e6" width=50% height=50%> 
+
+Of course, there are players that the neural network has not found, but there are very few such cases, such cases do not occur on every frame.
+
+The following is the result of the algorithm - a two-dimensional diagram of the field with the players marked on it. This is achieved by converting the perspective of the frame and obtaining a straightened image.
+
+<img src="https://github.com/zhernakov14/FIND_PLAYERS/assets/54941157/3c5b8dde-d6a2-4c95-8931-adeb88bc60dc" width=50% height=50%> 
